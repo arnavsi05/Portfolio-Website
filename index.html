@@ -1,11 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  	<link rel="stylesheet" href="homepage.css">
-  	<title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <p> Example paragraph #2 </p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnav Sinha</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Arnav Sinha</h1>
+        <p class="subtitle">Computer Science Student @ University of Michigan</p>
+    </header>
+
+    <!-- About Me -->
+    <section class="about">
+        <div class="about-content">
+            <img src="Arnav-pic.png" alt="Photo of Arnav Sinha" class="profile-pic">
+            <p>
+                Hi! I’m Arnav, a Computer Science student at the University of Michigan with a strong
+                interest in software engineering and applied machine learning. I enjoy working on 
+                technically challenging projects that have impact in the real world, and I’m always 
+                looking to learn new tools and technologies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section">
+        <h2>Experience</h2>
+
+        <div class="card">
+            <h3>Student Researcher – Graduate-Level IOE Study</h3>
+            <p class="meta">University of Michigan | May 2024 – May 2025</p>
+            <ul>
+                <li>Researched a Stackelberg-theoretical model for optimizing interactions between Roadside Units and Autonomous Vehicles.</li>
+                <li>Analyzed Hamilton–Jacobi–Bellman equations to optimize strategic decision-making.</li>
+                <li>Worked with stochastic modeling techniques including Ito’s Lemma and Girsanov’s Theorem.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Coding Team Intern – Admin Panel Developer</h3>
+            <p class="meta">Building-U | Aug 2024 – Feb 2025</p>
+            <ul>
+                <li>Designed and implemented an admin panel using React, JavaScript, and WordPress.</li>
+                <li>Integrated API endpoints for efficient account data retrieval.</li>
+                <li>Collaborated with a remote team using Git and GitHub.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Embedded Software Team Member</h3>
+            <p class="meta">Michigan Mars Rover Team | Aug 2025 – Present</p>
+            <ul>
+                <li>Programmed servo and motor systems in C/C++ on embedded microcontrollers.</li>
+                <li>Worked on sensor integration using STM32CubeIDE.</li>
+                <li>Collaborated across subteams to prepare the rover for competition deployment.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>Reliable Question Routing for Chatbots</h3>
+            <ul>
+                <li>Built a question-routing classifier in Python using sentence embeddings.</li>
+                <li>Trained a multi-class classifier on ~6,000 questions across six intent categories.</li>
+                <li>Improved test accuracy from ~90% to ~92% through targeted data augmentation.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Mystic Garden – WolverineSoft Studio</h3>
+            <ul>
+                <li>Developed gameplay systems in C# for a Unity-based farming simulator.</li>
+                <li>Implemented player interaction, farming mechanics, and progression systems.</li>
+                <li>Presented at the UM EECS 494 Showcase; game is being published to Steam.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            <a href="mailto:arnavsi@umich.edu">Email</a> |
+            <a href="https://github.com/arnavsi05" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/arnav-sinha-ab6475316/" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+
+</body>
 </html>
